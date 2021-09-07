@@ -1,9 +1,8 @@
 const getRandom = (max) => {
   return Math.floor(Math.random() * Math.floor(max));
 }
-
 const submitButton = document.querySelector("#submit");
-
+const imageHolderDiv = document.querySelector("#imageholder");
 submitButton.addEventListener("click", (e) => {
   //let myKey = process.env.secretkey;
   let myKey = '';
